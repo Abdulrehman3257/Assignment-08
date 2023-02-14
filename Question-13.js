@@ -4,9 +4,9 @@
 // Basic Salary <= 20000 : HRA = 25%, DA = 90%
 // Basic Salary > 20000 : HRA = 30%, DA = 95%
 
-let basicSallary = 50000;
-if (basicSallary <= 10000) {
-    
+let basicSalary = 5000;
+if (basicSalary <= 10000) {
+    console.log((basicSalary /20)*100);
 } else {
-    
+    console.log(basicSalary);
 }
